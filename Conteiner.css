@@ -1,0 +1,224 @@
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+}
+
+/*---------Container------------*/
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.col_2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(44, 66, 59);
+    align-items: center;
+    width: 100%;
+   
+}
+.row{
+    width: 100%;
+}
+
+.portfolio-item_text {
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+
+
+.portfolio-item_text strong {
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.portfolio-item_img {  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 8%;
+    margin-left: 8%;
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+
+}
+
+.portfolio-item_text img{
+    width: 100%;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.portfolio-item_img img{
+    width: 100%;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.portfolio-item_header { 
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 5%;
+    width: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 8%;
+}
+
+@media (max-width: 1160px) {
+
+    .portfolio-item_header { 
+        margin-top: 50px;
+        font-size: 20px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        margin: 0;
+
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-bottom: 8%;
+    }
+
+    .container {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .portfolio-item_img {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 20px; 
+        margin-bottom: 8%;
+    }
+
+    .portfolio-item_img img {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .portfolio-item_text img {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .portfolio-item_text {
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    
+    .row {    
+        width: 100%;
+        margin: 0;
+
+        padding-right: 40px;
+        padding-left: 40px;
+        font-size: 10px;
+    }
+
+    .col_2 {
+        flex-direction: column;
+        width: 100%;
+
+        margin: 0;
+
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .portfolio-item_text strong {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .row {    
+        width: 100%;
+        margin: 0;
+
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 10px;
+    }
+
+    .col_2 {
+        flex-direction: column;
+        width: 100%;
+
+        margin: 0;
+
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .portfolio-item_header { 
+        margin-top: 50px;
+        font-size: 20px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        margin: 0;
+
+        padding-right: 5px;
+        padding-left: 15px;
+        margin-bottom: 8%;
+    }
+    
+    .container {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .portfolio-item_img {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 20px; 
+        margin-bottom: 8%;
+    }
+
+    .portfolio-item_img img {
+        width: 100%;
+    }
+
+    .portfolio-item_text img {
+        width: 100%;
+    }
+
+    .portfolio-item_text {
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 8%;
+    }
+
+    .portfolio-item_text strong {
+        font-size: 25px;
+    }
+
+}
